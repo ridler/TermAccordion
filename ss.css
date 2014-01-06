@@ -1,0 +1,54 @@
+#nestedAccordion{
+	width:300px;
+}
+#nestedAccordion h2,
+#nestedAccordion h3, 
+#nestedAccordion div,
+#nestedAccordion p
+{
+	/* reset styles for accordion */
+	margin:0;
+	padding:0;
+	font-size:1em;
+	font-weight:normal;
+}
+#nestedAccordion div{
+	display:none;
+	color:#555;
+	overflow:hidden;
+}
+#nestedAccordion h2{
+	cursor:pointer;
+	color:#fff;
+	font-size:1.1em;
+	font-family:Ariel,sans-serif;
+	padding:5px;
+	margin-top:5px;
+	background-color: #4B8CFF;
+}
+#nestedAccordion h3{
+	cursor:pointer;
+	color:#fff;
+	font-size:1.1em;
+	font-family:Ariel,sans-serif;
+	padding:5px;
+	margin-top:5px;
+	background-color: #94bbff;
+}
+#nestedAccordion h4{
+	cursor:pointer;
+	color:#fff;
+	font-size:1em;
+	font-family:Ariel,sans-serif;
+	padding:5px;
+	margin-top:5px;
+	margin-bottom:5px;
+	background-color: #c5daff;
+}
+
+#nestedAccordion p{
+	font-family:Ariel,sans-serif;
+	background-color:#F5F5F5;
+	padding:5px 5px 5px 30px;
+	font-size:1em;
+}
